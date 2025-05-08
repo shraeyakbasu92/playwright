@@ -49,5 +49,4 @@ public class Practice4 {
 	page.close();
 	}
 
-
 }
