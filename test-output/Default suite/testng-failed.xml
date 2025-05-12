@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="palywright.Practice4">
+      <class name="palywright.Practice5">
         <methods>
-          <include name="handlingdropdown"/>
+          <include name="videocapturePractice"/>
         </methods>
-      </class> <!-- palywright.Practice4 -->
+      </class> <!-- palywright.Practice5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T15:10:33 IST" name="Suite" finished-at="2025-04-30T15:13:03 IST" duration-ms="150255">
+  <suite started-at="2025-05-07T18:06:02 IST" name="Default suite" finished-at="2025-05-07T18:07:53 IST" duration-ms="110867">
     <groups>
     </groups>
-    <test started-at="2025-04-30T15:10:33 IST" name="Test" finished-at="2025-04-30T15:13:03 IST" duration-ms="150255">
-      <class name="palywright.Practice2">
-        <test-method signature="locatorPractice()[pri:0, instance:palywright.Practice2@3fb1549b]" started-at="2025-04-30T15:11:24 IST" name="locatorPractice" finished-at="2025-04-30T15:11:48 IST" duration-ms="23874" status="PASS">
+    <test started-at="2025-05-07T18:06:02 IST" name="Default test" finished-at="2025-05-07T18:07:53 IST" duration-ms="110867">
+      <class name="palywright.Practice6">
+        <test-method signature="screenshotPractice()[pri:0, instance:palywright.Practice6@57d7f8ca]" started-at="2025-05-07T18:06:02 IST" name="screenshotPractice" finished-at="2025-05-07T18:07:53 IST" duration-ms="110801" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorPractice -->
-      </class> <!-- palywright.Practice2 -->
-      <class name="palywright.Practice3">
-        <test-method signature="mouseoperations()[pri:0, instance:palywright.Practice3@ea6147e]" started-at="2025-04-30T15:11:48 IST" name="mouseoperations" finished-at="2025-04-30T15:12:18 IST" duration-ms="30316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mouseoperations -->
-      </class> <!-- palywright.Practice3 -->
-      <class name="palywright.Practice4">
-        <test-method signature="handlingdropdown()[pri:0, instance:palywright.Practice4@4d02f94e]" started-at="2025-04-30T15:12:18 IST" name="handlingdropdown" finished-at="2025-04-30T15:13:03 IST" duration-ms="44787" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlingdropdown -->
-      </class> <!-- palywright.Practice4 -->
-      <class name="palywright.Practice1">
-        <test-method signature="OpenCloseBrowser()[pri:0, instance:palywright.Practice1@2dde1bff]" started-at="2025-04-30T15:10:33 IST" name="OpenCloseBrowser" finished-at="2025-04-30T15:11:24 IST" duration-ms="51063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenCloseBrowser -->
-      </class> <!-- palywright.Practice1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- screenshotPractice -->
+      </class> <!-- palywright.Practice6 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
