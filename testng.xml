@@ -9,6 +9,7 @@
       <class name="palywright.Practice4"/>
       <class name="palywright.Practice5"/>
       <class name="palywright.Practice6"/>
+      <class name="palywright.Practice7"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
