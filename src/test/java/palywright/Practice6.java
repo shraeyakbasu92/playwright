@@ -37,14 +37,14 @@ public class Practice6 {
 		
 		//capture screenshot of page but not full 
 		page.screenshot(new Page.ScreenshotOptions().setPath(Paths.get("./screenshot/image.png")));
-		assertTrue(page.title().contains("chetan bhagat")); //using testng assertions
+		assertTrue(page.title().contains("chetan bhagat"),"title got matched"); //using testng assertions
 		page.locator("//span[.='Get It by Tomorrow']").click();
 		PlaywrightAssertions.assertThat(page).hasTitle("Amazon.in: Chetan Bhagat - Get It By Tomorrow"); //using playwright assertions
 		
 		//capture screenshot of a specific webelement
 		page.locator("//span[.='Get It by Tomorrow']").screenshot(new Locator.ScreenshotOptions().setPath(Paths.get("./locatorscreenshot/image.png")));
 		page.locator("//span[.='Get It by Tomorrow']").click();
-		assertTrue(page.title().toLowerCase().contains("chetan bhagat"));
+		assertTrue(page.title().toLowerCase().contains("chetan bhagat"),"title got matched");
 		
 		context.close();
 		page.close(); 

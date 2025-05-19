@@ -26,11 +26,11 @@ public class Practice2 {
 		locator.fill("chetan bhagat");          //to send values
 		page.locator("//*[@id='nav-search-submit-button']").click(); //without using locator variable
 		Thread.sleep(1000);
-		assertTrue(page.title().contains("chetan bhagat")); //using testng assertions
+		assertTrue(page.title().contains("chetan bhagat"),"title got matched"); //using testng assertions
 		page.locator("//span[.='Get It Today']").click();
 		PlaywrightAssertions.assertThat(page).hasTitle("Amazon.in: Chetan Bhagat - Get It Today"); //using playwright assertions
 		page.locator("//span[.='Get It Today']").click();
-		assertTrue(page.title().toLowerCase().contains("chetan bhagat"));
+		assertTrue(page.title().toLowerCase().contains("chetan bhagat"),"title got matched");
 		page.close();
 	}
 }
